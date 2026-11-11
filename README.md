@@ -7,6 +7,23 @@ Converts PDF files to plain text using [pymupdf4llm](https://pymupdf.readthedocs
 - Python 3.14+
 - [uv](https://docs.astral.sh/uv/) (recommended) or pip
 
+## Setup
+
+```bash
+git clone https://github.com/lleo022/pdf-to-md.git
+cd pdf-to-md
+```
+
+**With uv:** no further setup. `uv run` installs dependencies (and Python 3.14 if needed) on first run.
+
+**With pip:**
+
+```bash
+python3.14 -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install pymupdf4llm
+```
+
 ## Usage
 
 ```bash
